@@ -1,0 +1,30 @@
+footer {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+	font-family: 'TT Travels Next ExtraBold';
+}
+
+footer a {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+
+.footerdiv {
+	display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 3%;
+}
+
+.footersection {
+	flex-direction: column;
+	margin-top: 2%;
+} 
+
+.footersection > * {
+	line-height: 200%;
+}
